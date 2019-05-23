@@ -1,6 +1,6 @@
 #%%
 import geopandas as gpd
-shapefile = 'C:/users/stuch/OneDrive/TDI Capstone/stlkwalkshp.shp'
+shapefile = '/stlkwalkshp.shp'
 #Read shapefile using Geopandas
 gdf = gpd.read_file(shapefile)
 import json
